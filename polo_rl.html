@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polo Ralph Lauren - Vinted Reseller NHZ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Produtos Polo Ralph Lauren</h1>
+    <div id="productContainer" class="product-list"></div>
+
+    <script>
+        fetchProducts('polo_rl').then(products => {
+            displayProducts(products);
+        });
+    </script>
+</body>
+</html>
